@@ -1,0 +1,32 @@
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore core dumps
+core
